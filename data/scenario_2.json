@@ -1,0 +1,167 @@
+{
+  "Scenario_name": "Scenario 2 - Bunched start",
+  "weights": {
+    "individual": 1.0,
+    "operator": 1.0,
+    "overall": 1.0
+  },
+  "routes": {
+    "sta_s": [
+      {
+        "name": "Bengaluru",
+        "dist_from_start": 0,
+        "charg": 0
+      },
+      {
+        "name": "A",
+        "dist_from_start": 100,
+        "charg": 1
+      },
+      {
+        "name": "B",
+        "dist_from_start": 220,
+        "charg": 1
+      },
+      {
+        "name": "C",
+        "dist_from_start": 320,
+        "charg": 1
+      },
+      {
+        "name": "D",
+        "dist_from_start": 440,
+        "charg": 1
+      },
+      {
+        "name": "Kochi",
+        "dist_from_start": 540,
+        "charg": 0
+      }
+    ],
+    "battery_range": 240,
+    "charge_time": 25,
+    "speed_p_min": 1.0
+  },
+  "buses": [
+    {
+      "bus_id": "bus-BK-01",
+      "Oper": "kpn",
+      "Direction": "Bengaluru_Kochi",
+      "Depart_time": 1140
+    },
+    {
+      "bus_id": "bus-BK-02",
+      "Oper": "freshbus",
+      "Direction": "Bengaluru_Kochi",
+      "Depart_time": 1148
+    },
+    {
+      "bus_id": "bus-BK-03",
+      "Oper": "flixbus",
+      "Direction": "Bengaluru_Kochi",
+      "Depart_time": 1156
+    },
+    {
+      "bus_id": "bus-BK-04",
+      "Oper": "kpn",
+      "Direction": "Bengaluru_Kochi",
+      "Depart_time": 1164
+    },
+    {
+      "bus_id": "bus-BK-05",
+      "Oper": "freshbus",
+      "Direction": "Bengaluru_Kochi",
+      "Depart_time": 1172
+    },
+    {
+      "bus_id": "bus-BK-06",
+      "Oper": "flixbus",
+      "Direction": "Bengaluru_Kochi",
+      "Depart_time": 1180
+    },
+    {
+      "bus_id": "bus-BK-07",
+      "Oper": "kpn",
+      "Direction": "Bengaluru_Kochi",
+      "Depart_time": 1188
+    },
+    {
+      "bus_id": "bus-BK-08",
+      "Oper": "freshbus",
+      "Direction": "Bengaluru_Kochi",
+      "Depart_time": 1203
+    },
+    {
+      "bus_id": "bus-BK-09",
+      "Oper": "flixbus",
+      "Direction": "Bengaluru_Kochi",
+      "Depart_time": 1218
+    },
+    {
+      "bus_id": "bus-BK-10",
+      "Oper": "kpn",
+      "Direction": "Bengaluru_Kochi",
+      "Depart_time": 1233
+    },
+    {
+      "bus_id": "bus-KB-01",
+      "Oper": "freshbus",
+      "Direction": "Kochi_Bengaluru",
+      "Depart_time": 1140
+    },
+    {
+      "bus_id": "bus-KB-02",
+      "Oper": "flixbus",
+      "Direction": "Kochi_Bengaluru",
+      "Depart_time": 1148
+    },
+    {
+      "bus_id": "bus-KB-03",
+      "Oper": "kpn",
+      "Direction": "Kochi_Bengaluru",
+      "Depart_time": 1156
+    },
+    {
+      "bus_id": "bus-KB-04",
+      "Oper": "freshbus",
+      "Direction": "Kochi_Bengaluru",
+      "Depart_time": 1164
+    },
+    {
+      "bus_id": "bus-KB-05",
+      "Oper": "flixbus",
+      "Direction": "Kochi_Bengaluru",
+      "Depart_time": 1172
+    },
+    {
+      "bus_id": "bus-KB-06",
+      "Oper": "kpn",
+      "Direction": "Kochi_Bengaluru",
+      "Depart_time": 1180
+    },
+    {
+      "bus_id": "bus-KB-07",
+      "Oper": "freshbus",
+      "Direction": "Kochi_Bengaluru",
+      "Depart_time": 1188
+    },
+    {
+      "bus_id": "bus-KB-08",
+      "Oper": "flixbus",
+      "Direction": "Kochi_Bengaluru",
+      "Depart_time": 1203
+    },
+    {
+      "bus_id": "bus-KB-09",
+      "Oper": "kpn",
+      "Direction": "Kochi_Bengaluru",
+      "Depart_time": 1218
+    },
+    {
+      "bus_id": "bus-KB-10",
+      "Oper": "freshbus",
+      "Direction": "Kochi_Bengaluru",
+      "Depart_time": 1233
+    }
+  ]
+}
